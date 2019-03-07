@@ -327,6 +327,7 @@ void WindowManager::PreUpate()
 }
 
 
+
 /**
 *    @brief  The mainLoop static method executes the loop of event handling and window rendering.
 *    @note   The way of managing the event queue can be changed even while this method is running.

@@ -1,5 +1,5 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0.2) #cmake 版本限定
-PROJECT(aad3d)  #工程名称
+PROJECT(mytestimgui)  #工程名称
 
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/modules)
 set(CMAKE_CXX_FLAGS "-std=c++11 -Wno-sign-compare ")
@@ -56,6 +56,8 @@ set( BUILD_SHARED_LIBS OFF CACHE BOOL "Build package with shared libraries." FOR
 SET(ALL_INC_DIRS
         ${PROJECT_SOURCE_DIR}/include
         ${PROJECT_SOURCE_DIR}/include/GLFWM
+        ${PROJECT_SOURCE_DIR}/include/imgui_sfml
+
 
         )
 
@@ -75,7 +77,7 @@ set(LIBRARIES ${MODULE_LIBS_LIST})
 CompileLib(
             "${PROJECT_SOURCE_DIR}/include"
             "${PROJECT_SOURCE_DIR}/src"
-            "imgui GL GLFWM")
+            "imgui GL GLFWM imgui_sfml")
 
 
 ReadGlobal(LOCAL_LIBRARIES LOCAL_LIBS_LIST)

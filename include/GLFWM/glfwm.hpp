@@ -118,6 +118,7 @@ public:
     static void PreUpate();
 
 
+
     static void PostUpdate();
 
 
@@ -149,7 +150,7 @@ private:
     static void inputDropCallback(GLFWwindow *glfwWindow, int count, const char **paths);
 
 
-private:
+public:
 
     static WindowGroupID gID;
     static WindowGroupPointer g;
@@ -157,6 +158,7 @@ private:
     static std::unordered_set<WindowGroupID> gIDs;
     static std::unordered_set<WindowID> wIDs;
 
+private:
 
 #ifndef NO_MULTITHREADING
     static std::atomic<double>  waitTimeout;    ///< Timeout for the polling event management: 0 -> poll, inf -> wait indefinitely, k -> wait k seconds.

@@ -422,6 +422,9 @@ public:
      */
     void makeContextCurrent();
 
+    GLFWwindow *GetglfwWindow(void);
+
+
     /**
      *  @brief  The doneCurrentContext method releases the resources held by makeContextCurrent.
      *  @note   A call to this may only follow a call to makeContextCurrent, without nesting, otherwise the behaviour is undefined.

@@ -1,0 +1,12 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm
+glfw
+-ldl
+-lGL
+imgui
+GL
+GLFWM
+imgui_sfml
+-----delete_files ---------
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug

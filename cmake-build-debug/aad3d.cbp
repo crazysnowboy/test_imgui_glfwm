@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="aad3d"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\toolsets\;CMake Files\cmake\config\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_cpp">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/main_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_cpp/fast">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/main_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_manager_demo_v2_cpp">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/glfw_manager_demo_v2_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 glfw_manager_demo_v2_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_manager_demo_v2_cpp/fast">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/glfw_manager_demo_v2_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 glfw_manager_demo_v2_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_example_cpp">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/demo_example_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_example_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_example_cpp/fast">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/demo_example_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_example_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_manager_demo_cpp">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/glfw_manager_demo_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 glfw_manager_demo_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_manager_demo_cpp/fast">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/glfw_manager_demo_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 glfw_manager_demo_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/libs/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 imgui"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui/fast">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/libs/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 imgui/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GL">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/libs/libGL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 GL"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GL/fast">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/libs/libGL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 GL/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLFWM">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/libs/libGLFWM.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLFWM"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLFWM/fast">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/libs/libGLFWM.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLFWM/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_dock_cpp">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/demo_dock_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_dock_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_dock_cpp/fast">
+				<Option output="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/bin/demo_dock_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user"/>
+					<Add directory="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_dock_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GL/gl3w.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GL/glcorearb.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/common.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/drawable.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/enums.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/event.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/event_handler.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/glfwm.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/update_map.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/utility.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/window.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/GLFWM/window_group.hpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/dock/imgui_dock.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui/imconfig.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui/imgui.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui/imgui_internal.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui/imstb_rectpack.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui/imstb_textedit.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui/imstb_truetype.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_impl_glfw.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_impl_opengl3.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user/imgui_date_picker.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imgui_user/imgui_user.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/include/imgui/imguizmo/imguizmo.h">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/main/demo_dock.cpp">
+			<Option target="demo_dock_cpp"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/main/demo_example.cpp">
+			<Option target="demo_example_cpp"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/main/glfw_manager_demo.cpp">
+			<Option target="glfw_manager_demo_cpp"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/main/glfw_manager_demo_v2.cpp">
+			<Option target="glfw_manager_demo_v2_cpp"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/main/main.cpp">
+			<Option target="main_cpp"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/GL/gl3w.c">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/GLFWM/drawable.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/GLFWM/enums.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/GLFWM/event.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/GLFWM/glfwm.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/GLFWM/update_map.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/GLFWM/utility.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/GLFWM/window.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/GLFWM/window_group.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/dock/imgui_dock.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/imgui/imgui.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/imgui/imgui_demo.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/imgui/imgui_draw.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/imgui/imgui_widgets.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/imgui_impl_glfw.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/imgui_impl_opengl3.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/imgui_user/imgui_date_picker.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/imgui_user/imgui_user.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/src/imgui/imguizmo/imguizmo.cpp">
+			<Option target="imgui"/>
+			<Option target="GL"/>
+			<Option target="GLFWM"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake/toolsets/BasicTools.cmake">
+			<Option virtualFolder="CMake Files\cmake\toolsets\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake/toolsets/CompileTools.cmake">
+			<Option virtualFolder="CMake Files\cmake\toolsets\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake/toolsets/IncludeTools.cmake">
+			<Option virtualFolder="CMake Files\cmake\toolsets\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake/toolsets/RemoveFIlesTools.cmake">
+			<Option virtualFolder="CMake Files\cmake\toolsets\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake/config/ConfigureDeps.cmake">
+			<Option virtualFolder="CMake Files\cmake\config\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake/config/clear_incs_srcs.cmake">
+			<Option virtualFolder="CMake Files\cmake\config\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/cmake/config/define.cmake">
+			<Option virtualFolder="CMake Files\cmake\config\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/../../../../../../../usr/local/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/../../../../../../../usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/../../../../../../../usr/local/lib/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/collin/Space_0_5_T/code/NeteaseProjects/CrazyAAA/test_imgui_glfwm/../../../../../../../usr/local/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

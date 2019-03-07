@@ -41,6 +41,9 @@ Window::Window(const WindowID id, const int width, const int height, const std::
     // acquire ownership
     std::lock_guard<std::recursive_mutex> lock(globalMutex);
 #endif
+
+    glfwMakeContextCurrent(glfwWindow);
+
     windowsMap.insert(std::make_pair(glfwWindow, id));
 
 }
@@ -909,6 +912,10 @@ void Window::makeContextCurrent()
     }
 }
 
+GLFWwindow *Window::GetglfwWindow(void)
+{
+    return glfwWindow;
+}
 /**
  *  @brief  The doneCurrentContext method releases the resources held by makeContextCurrent.
  *  @note   A call to this may only follow a call to makeContextCurrent, without nesting, otherwise the behaviour is undefined.

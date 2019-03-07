@@ -202,9 +202,17 @@ int main(int argc, char *argv[])
     // The main loop will run until at least one window is open. When all windows
     // are closed, the mainLoop() method ends.
     // Note that a window is closed and others remain open, that window is destroyed.
-    glfwm::WindowManager::mainLoop();
+    do
+    {
+        glfwm::WindowManager::PreUpate();
 
-    // Finally, deletes all the resources: any group is destroyed and GLFW is terminated.
+        glfwm::WindowManager::PostUpdate();
+
+
+    }  while (glfwm::WindowManager::ShoudQuit()== false);
+
+
+        // Finally, deletes all the resources: any group is destroyed and GLFW is terminated.
     glfwm::WindowManager::terminate();
 
     return 0;

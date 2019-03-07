@@ -114,11 +114,14 @@ public:
      */
     static WindowPointer getCurrentContext();
 
-    /**
-     *    @brief  The mainLoop static method executes the loop of event handling and window rendering.
-     *    @note   The way of managing the event queue can be changed even while this method is running.
-     */
-    static void mainLoop();
+
+    static void PreUpate();
+
+
+    static void PostUpdate();
+
+
+    static bool ShoudQuit();
 
     /**
      *    @brief  The terminate static method deletes all the remained Windows and WindowGroups and then terminate GLFW.
@@ -145,12 +148,24 @@ private:
     static void inputCharModCallback(GLFWwindow *glfwWindow, unsigned int codepoint, int mods);
     static void inputDropCallback(GLFWwindow *glfwWindow, int count, const char **paths);
 
+
+private:
+
+    static WindowGroupID gID;
+    static WindowGroupPointer g;
+    static WindowPointer w;
+    static std::unordered_set<WindowGroupID> gIDs;
+    static std::unordered_set<WindowID> wIDs;
+
+
 #ifndef NO_MULTITHREADING
     static std::atomic<double>  waitTimeout;    ///< Timeout for the polling event management: 0 -> poll, inf -> wait indefinitely, k -> wait k seconds.
 #else
     static double               waitTimeout;    ///< Timeout for the polling event management: 0 -> poll, inf -> wait indefinitely, k -> wait k seconds.
 #endif
 };
+
+
 
 }
 

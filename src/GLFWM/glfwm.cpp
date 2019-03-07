@@ -16,6 +16,14 @@
 namespace glfwm
 {
 
+
+WindowGroupID WindowManager::gID;
+WindowGroupPointer WindowManager::g;
+WindowPointer WindowManager::w;
+std::unordered_set<WindowGroupID> WindowManager::gIDs;
+std::unordered_set<WindowID> WindowManager::wIDs;
+
+
 #ifndef NO_MULTITHREADING
 std::atomic<double> WindowManager::waitTimeout(std::numeric_limits<double>::infinity());
 #else
@@ -28,6 +36,8 @@ double              WindowManager::waitTimeout = std::numeric_limits<double>::in
  */
 bool WindowManager::init()
 {
+
+
     return glfwInit();
 }
 
@@ -225,137 +235,140 @@ WindowPointer WindowManager::getCurrentContext()
  *    @brief  The mainLoop static method executes the loop of event handling and window rendering.
  *    @note   The way of managing the event queue can be changed even while this method is running.
  */
-void WindowManager::mainLoop()
+void WindowManager::PreUpate()
 {
-    WindowGroupID gID;
-    WindowGroupPointer g;
-    WindowPointer w;
-    std::unordered_set<WindowGroupID> gIDs;
-    std::unordered_set<WindowID> wIDs;
+
 
     // ensure first rendering
     UpdateMap::setToUpdate(AllWindowGroupIDs, AllWindowIDs);
 
-    // do loop
-    do
+    // update groups and windows
+    while (!UpdateMap::empty())
     {
 
-        // std::cout <<"----do---while --"<<std::endl;
+        std::cout <<"----update  UpdateMap--"<<std::endl;
 
-        // update groups and windows
-        while (!UpdateMap::empty())
+        UpdateMap::popGroup(gID, wIDs);
+        if (gID == AllWindowGroupIDs)
         {
-
-            std::cout <<"----update  UpdateMap--"<<std::endl;
-
-            UpdateMap::popGroup(gID, wIDs);
-            if (gID == AllWindowGroupIDs)
+            WindowGroup::getAllWindowGroupIDs(gIDs);
+            for (auto id : gIDs)
             {
-                WindowGroup::getAllWindowGroupIDs(gIDs);
+                g = WindowGroup::getGroup(id);
+                if (g)
+                {
+                    g->setWindowToUpdate(WholeGroupWindowIDs);
+                    g->process();
+                }
+            }
+            WindowGroup::getAllUngroupedWindowIDs(wIDs);
+            for (auto id : wIDs)
+            {
+                w = Window::getWindow(id);
+                if (w)
+                {
+                    w->makeContextCurrent();
+                    w->draw();
+                    w->swapBuffers();
+                    w->doneCurrentContext();
+
+                    std::cout <<"-------draw---AllWindowGroupIDs--"<<std::endl;
+                }
+            }
+        }
+        else
+        {
+            g = WindowGroup::getGroup(gID);
+            if (g)
+            {
+                for (auto &id : wIDs)
+                {
+                    g->setWindowToUpdate(id);
+                }
+                g->process();
+            }
+            else
+            {
+                gIDs.clear();
+                for (auto &id : wIDs)
+                {
+                    g = WindowGroup::getGroup(WindowGroup::getWindowGroup(id));
+                    if (g)
+                    {
+                        g->setWindowToUpdate(id);
+                        gIDs.insert(g->getID());
+                    }
+                    else
+                    {
+                        w = Window::getWindow(id);
+                        if (w)
+                        {
+                            w->makeContextCurrent();
+                            w->draw();
+                            w->swapBuffers();
+                            w->doneCurrentContext();
+                            std::cout <<"-------draw---not AllWindowGroupIDs--"<<std::endl;
+
+                        }
+                    }
+                }
                 for (auto id : gIDs)
                 {
                     g = WindowGroup::getGroup(id);
                     if (g)
                     {
-                        g->setWindowToUpdate(WholeGroupWindowIDs);
                         g->process();
                     }
                 }
-                WindowGroup::getAllUngroupedWindowIDs(wIDs);
-                for (auto id : wIDs)
-                {
-                    w = Window::getWindow(id);
-                    if (w)
-                    {
-                        w->makeContextCurrent();
-                        w->draw();
-                        w->swapBuffers();
-                        w->doneCurrentContext();
-
-                        std::cout <<"-------draw---AllWindowGroupIDs--"<<std::endl;
-                    }
-                }
-            }
-            else
-            {
-                g = WindowGroup::getGroup(gID);
-                if (g)
-                {
-                    for (auto &id : wIDs)
-                    {
-                        g->setWindowToUpdate(id);
-                    }
-                    g->process();
-                }
-                else
-                {
-                    gIDs.clear();
-                    for (auto &id : wIDs)
-                    {
-                        g = WindowGroup::getGroup(WindowGroup::getWindowGroup(id));
-                        if (g)
-                        {
-                            g->setWindowToUpdate(id);
-                            gIDs.insert(g->getID());
-                        }
-                        else
-                        {
-                            w = Window::getWindow(id);
-                            if (w)
-                            {
-                                w->makeContextCurrent();
-                                w->draw();
-                                w->swapBuffers();
-                                w->doneCurrentContext();
-                                std::cout <<"-------draw---not AllWindowGroupIDs--"<<std::endl;
-
-                            }
-                        }
-                    }
-                    for (auto id : gIDs)
-                    {
-                        g = WindowGroup::getGroup(id);
-                        if (g)
-                        {
-                            g->process();
-                        }
-                    }
-                }
             }
         }
-
-        // manage events
-        if (waitTimeout == 0.0)
-        {
-            glfwPollEvents();
-            UpdateMap::setToUpdate(AllWindowGroupIDs, AllWindowIDs);
-        }
-        else if(waitTimeout == std::numeric_limits<double>::infinity())
-        {
-            glfwWaitEvents();
-        }
-        else
-        {
-            glfwWaitEventsTimeout(waitTimeout);
-        }
-
-        // check for windows to close (and detach from groups)
-        Window::windowsToClose(wIDs);
-        for (auto id : wIDs)
-        {
-            g = WindowGroup::getGroup(WindowGroup::getWindowGroup(id));
-            if (g)
-            {
-                g->detachWindow(id);
-            }
-            Window::deleteWindow(id);
-        }
-
     }
-    while (Window::isAnyWindowOpen());
+
 }
 
+
 /**
+*    @brief  The mainLoop static method executes the loop of event handling and window rendering.
+*    @note   The way of managing the event queue can be changed even while this method is running.
+*/
+void WindowManager::PostUpdate()
+{
+    // manage events
+    if (waitTimeout == 0.0)
+    {
+        glfwPollEvents();
+        UpdateMap::setToUpdate(AllWindowGroupIDs, AllWindowIDs);
+    }
+    else if(waitTimeout == std::numeric_limits<double>::infinity())
+    {
+        glfwWaitEvents();
+    }
+    else
+    {
+        glfwWaitEventsTimeout(waitTimeout);
+    }
+
+    // check for windows to close (and detach from groups)
+    Window::windowsToClose(wIDs);
+    for (auto id : wIDs)
+    {
+        g = WindowGroup::getGroup(WindowGroup::getWindowGroup(id));
+        if (g)
+        {
+            g->detachWindow(id);
+        }
+        Window::deleteWindow(id);
+    }
+
+
+}
+
+
+bool WindowManager::ShoudQuit()
+{
+    return !Window::isAnyWindowOpen();
+}
+    /**
  *    @brief  The terminate static method deletes all the remained Windows and WindowGroups and then terminate GLFW.
  *    @note   Call this method after mainLoop.
  */

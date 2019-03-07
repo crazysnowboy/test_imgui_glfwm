@@ -1,0 +1,6 @@
+core/CPP_Modules/pyCrazylib/build
+core/CPP_Modules/pyCrazylib/cmake-build-debug
+core/CPP_Modules/pyCrazylib/cmake-build-release
+core/CPP_Modules/pyCrazylib/.idea
+.idea
+*.pyc
